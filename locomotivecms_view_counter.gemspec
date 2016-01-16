@@ -17,6 +17,6 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = ['lib']
 
-  gem.add_development_dependency 'rake',      '~> 10.0.4'
+  gem.add_development_dependency 'rake', '~> 10.0.4'
   gem.add_development_dependency 'locomotivecms_steam',   '~> 1.0.0'
 end
